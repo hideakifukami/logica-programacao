@@ -15,6 +15,6 @@ public class App {
         int qntdade = myObj.nextInt();
         double total = qntdade * valorUnitario;
 
-        System.out.println("A compra de " + qntdade + " unidades da peça de código " + cod + " tem o valor total de R$" + total + ".");
+        System.out.printf("A compra de %d unidades da peça de código %d tem o valor total de R$%.2f.", qntdade, cod, total);
     }
 }
