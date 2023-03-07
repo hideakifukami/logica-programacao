@@ -8,6 +8,6 @@ public class App {
         soma = num1 + num2;
         produto = num1 * num2;
 
-        JOptionPane.showMessageDialog(null, String.format(null, "A soma dos dois valores é %d. O produto dos dois valores é %d.", soma, produto));
+        JOptionPane.showMessageDialog(null, String.format("A soma dos dois valores é %d. O produto dos dois valores é %d.", soma, produto));
     }
 }
