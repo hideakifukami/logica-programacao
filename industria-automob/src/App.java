@@ -16,6 +16,7 @@ public class App {
         double total = qntdade * valorUnitario;
 
         System.out.printf("A compra de %d unidades da peça de código %d tem o valor total de R$%.2f.", qntdade, cod, total);
+        
     }
 }
 
