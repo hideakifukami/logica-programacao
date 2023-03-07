@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class App {
     public static void main(String[] args) {
-        String cod, resposta;
+        String cod;
         double valorUnitario, total;
         int qntdade;
 
@@ -13,7 +13,7 @@ public class App {
         qntdade = Integer.parseInt(JOptionPane.showInputDialog("Indique a quantidade de peças."));
         total = qntdade * valorUnitario;
 
-        System.out.printf("A compra de %d unidades da peça de código %s tem o valor total de R$%.2f.", qntdade, cod, total);
+        JOptionPane.showMessageDialog(null, String.format("A compra de %d unidades da peça de código %s tem o valor total de R$%.2f.", qntdade, cod, total));
         
     }
 }
